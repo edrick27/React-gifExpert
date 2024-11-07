@@ -14,13 +14,13 @@ export const AddCategory = ({ onAddNewCategory }) => {
 
         if (inputValue.trim().length < 1) return;
 
-        onAddNewCategory(inputValue.trim());
         setInputValue('');
+        onAddNewCategory(inputValue.trim());
     }
 
     return (
         <>
-            <form onSubmit={ onSubmit }>
+            <form onSubmit={ onSubmit } aria-label="form">
                 <input
                     type="text"
                     placeholder="Buscar Gifts..."

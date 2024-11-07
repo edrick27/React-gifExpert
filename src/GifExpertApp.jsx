@@ -30,3 +30,6 @@ export const GifExpertApp = () => {
         </>
     )
 }
+
+// que te gusta mas naruto o dragon ball
+//  
