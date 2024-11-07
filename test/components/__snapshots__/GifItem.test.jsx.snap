@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prueba del GifItem Snapshot del GifItem 1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <img
+      alt="hola Mundo"
+      src="https://media2.giphy.com/media/VXJWhaO7afRe/giphy.gif?cid=a2ccfd36agv0f80hafuikwpxbss1yllzprvgemxszpif1mrs&ep=v1_gifs_search&rid=giphy.gif&ct=g"
+    />
+    <p>
+      hola Mundo
+    </p>
+  </div>
+</div>
+`;
